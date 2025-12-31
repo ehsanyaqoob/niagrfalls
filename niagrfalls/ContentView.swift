@@ -22,7 +22,7 @@ struct ContentView: View {
                     .cornerRadius(30)
                     .padding(.all)
 
-                Text("NigraFalls WatterFall")
+                Text("NigraFalls")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
