@@ -20,9 +20,9 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
                     .cornerRadius(30)
-                    .padding(.horizontal, 24)
+                    .padding(.all)
 
-                Text("Nigra Falls")
+                Text("NigraFalls WatterFall")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
