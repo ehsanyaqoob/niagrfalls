@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7F1336012F0588FC003DF385 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7F1336002F0588FC003DF385 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7F1335E42F057761003DF385 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		7F1335D62F05775F003DF385 /* niagrfalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niagrfalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1335E32F057761003DF385 /* niagrfallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = niagrfallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1335ED2F057761003DF385 /* niagrfallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = niagrfallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1336002F0588FC003DF385 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +48,11 @@
 		7F1335F02F057761003DF385 /* niagrfallsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = niagrfallsUITests;
+			sourceTree = "<group>";
+		};
+		7F1336022F058973003DF385 /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +85,12 @@
 		7F1335CD2F05775F003DF385 = {
 			isa = PBXGroup;
 			children = (
+				7F1336022F058973003DF385 /* Screenshots */,
 				7F1335D82F05775F003DF385 /* niagrfalls */,
 				7F1335E62F057761003DF385 /* niagrfallsTests */,
 				7F1335F02F057761003DF385 /* niagrfallsUITests */,
 				7F1335D72F05775F003DF385 /* Products */,
+				7F1336002F0588FC003DF385 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +121,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7F1335D82F05775F003DF385 /* niagrfalls */,
+				7F1336022F058973003DF385 /* Screenshots */,
 			);
 			name = niagrfalls;
 			packageProductDependencies = (
@@ -212,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1336012F0588FC003DF385 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
